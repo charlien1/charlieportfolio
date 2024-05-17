@@ -1,6 +1,10 @@
+## Preview
+
+Deployed Website: https://cnguyen-portfolio.netlify.app/
+
 ## Instructions
 
-To install and launch the project, run these commands:
+To install and launch the project locally, run these commands:
 
 ```shell
 yarn
