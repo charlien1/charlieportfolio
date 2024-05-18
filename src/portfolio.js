@@ -45,7 +45,6 @@ export const work = [
     duration: 'Feb 2024 - Present',
     description: 'Assisted in enhancing the company\'s website by implementing login functionality using Microsoft Entra ID, improving user experience and security. Contributed to the design and development of an employee evaluation system, showcasing web-design skills and database knowledge. Gained hands-on experience with PHP, and Microsoft SQL Server. ',
   },
-  // Add more work experience objects here
 ]
 
 const skills = [
