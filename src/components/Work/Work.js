@@ -1,7 +1,7 @@
 import uniqid from 'uniqid'
 import { work } from '../../portfolio'
 import './Work.css'
-import bannerImage from './banner.png' // Import your image
+import bannerImage from './banner.png'
 
 const Work = () => {
   if (!work.length) return null
@@ -16,7 +16,10 @@ const Work = () => {
             <p className='work-experience__company'>{experience.company}</p>
             <p className='work-experience__duration'>{experience.duration}</p>
             <br /><p className='work-experience__description'>{experience.description}</p>
-            <br /><img src={bannerImage} alt="Banner" />
+            <br />
+            <a href="https://www.ocvector.org/" target="_blank" rel="noopener noreferrer">
+              <img src={bannerImage} alt="Banner" />
+            </a>
           </li>
         ))}
       </ul>
