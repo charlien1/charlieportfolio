@@ -1,10 +1,8 @@
 const header = {
-  // all the properties are optional - can be left empty or deleted
 }
 
 
 const about = {
-  // all the properties are optional - can be left empty or deleted
   name: 'Charlie Nguyen',
   role: 'Computer Science Student and IT Intern',
   description:
@@ -22,22 +20,32 @@ const projects = [
     description:
       'Android app that helps users easily discover and coordinate pick-up basketball games with fellow players in their local area. ',
     stack: ['React', 'JavaScript'],
-    sourceCode: 'https://github.com/charlien1/ReadyUpApp',
+    livePreview: 'https://github.com/charlien1/ReadyUpApp',
   },
   {
     name: 'Apple Jumper',
     description:
       '2D platformer with multiple levels where you need to collect all the apples on the screen in order to progress to the next level.',
     stack: ['Unity', 'C#'],
-    sourceCode: 'https://github.com/charlien1/AppleJumper',
+    livePreview: 'https://github.com/charlien1/AppleJumper',
   },
   {
     name: 'Star Invaders',
     description:
       '8-bit 2D style space invaders game with a Star Wars theme.',
     stack: ['C++'],
-    sourceCode: 'https://github.com/charlien1/Star-Wars-Space-Invaders-Project',
+    livePreview: 'https://github.com/charlien1/Star-Wars-Space-Invaders-Project',
   },
+]
+
+export const work = [
+  {
+    role: 'IT Intern',
+    company: 'Orange County Mosquito and Vector Control District',
+    duration: 'Feb 2024 - Present',
+    description: 'Assisted in enhancing the company\'s website by implementing login functionality using Microsoft Entra ID, improving user experience and security. Contributed to the design and development of an employee evaluation system, showcasing web-design skills and database knowledge. Gained hands-on experience with PHP, and Microsoft SQL Server. ',
+  },
+  // Add more work experience objects here
 ]
 
 const skills = [

@@ -1,0 +1,39 @@
+.work-experience__list-item img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0.5rem;
+    width: 50%; /* Adjust as needed */
+  }
+
+.work-experience__role {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-left: 145px;
+    margin-bottom: 0.5rem;
+    width: 80%;
+  }
+
+.work-experience__company {
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin-left: 145px;
+    margin-bottom: 0.5rem;
+    width: 80%;
+  }
+
+.work-experience__duration {
+    font-size: 1rem;
+    font-weight: 400;
+    margin-left: 145px;
+    margin-bottom: 0.5rem;
+    width: 80%;
+  }
+
+.work-experience__description {
+    font-size: 1rem;
+    font-weight: 400;
+    margin-left: 145px;
+    margin-bottom: 0.5rem;
+    width: 80%;
+  }
