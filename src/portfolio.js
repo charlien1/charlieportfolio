@@ -8,7 +8,7 @@ const about = {
   name: 'Charlie Nguyen',
   role: 'Computer Science Student and IT Intern',
   description:
-    'I am a third year Computer Science Major at California State University, Fullerton and am currently an IT Intern at Orange County Mosquito and Vector Control District ',
+    'I am a third year Computer Science Major at California State University, Fullerton and am currently an IT Intern at Orange County Mosquito and Vector Control District. ',
   resume: '/resume.pdf',
   social: {
     linkedin: 'https://www.linkedin.com/in/charlie-nguyen-6a733a30a/',
